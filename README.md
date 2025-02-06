@@ -34,11 +34,13 @@ This project uses and compares different classical machine learning models to pr
 ## Running the Notebook  
 Open main.ipynb in Jupyter Notebook or via VS Code and execute the cells sequentially. The notebook covers:
 
-**EDA:** Understand data characteristics.  
-**Data Pre-processing:**  
-- Encode categorical features (and address warnings from replace operations).  
+**EDA:** Understand the characteristics of the data.  
+**Data Pre-processing:** 
+- Split data into training, validation, and test subsets. 
+- Encode categorical features.  
 - Standardize numerical features using StandardScaler.  
-- Split data into training, validation, and test subsets.
+- Remove outliers.
+- Remove missing and duplicate values.
 
 **Model Training and Evaluation:**  
 - Train multiple classifiers.  
